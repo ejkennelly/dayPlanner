@@ -26,7 +26,7 @@ $(document).ready(function () {
     for (var i = 0; i <= 12; i++) {
         var inputTime = $("#" + i + "Row").attr("data-time");
         var inputTimeInt = parseInt(inputTime);
-        console.log(inputTimeInt);
+        // console.log(inputTime);
 
         if (currentTimeInt === inputTimeInt) {
             $("#" + i + "Row").addClass("present");
