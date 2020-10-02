@@ -49,5 +49,19 @@ $(document).ready(function () {
     });
 
     // button click
+    //set variables for the hour that was clicked and the value that was entered for that hour
+    saveBtn.on("click", function() {
+        var hour = $(this).attr("data-hour");
+        var userInput = $("#" + hour + "Row").val();
+        localStorage.setItem(hour,userInput);
+    }); 
 
-})
+    //function to retrieve stored user inputs 
+    function renderPlans() {
+        for (var j=1; j<=12; j++) {
+            $("#" + j + "Row").val(localStorage.getItem(j));
+        }
+
+    }
+
+});
