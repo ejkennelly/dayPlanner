@@ -18,4 +18,7 @@ MIT
 
 Contact email address if you have additional questions: elizakennelly@gmail.com
 
+<<<<<<< HEAD
 ![day planner](ss.png)
+=======
+>>>>>>> e27751884dbf385a261d04b5ef1e405bb4bcace7
