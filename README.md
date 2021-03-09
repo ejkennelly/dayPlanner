@@ -8,7 +8,7 @@ This planner breaks your day into hour long blocks of time from 9 am to 5 pm. Ti
 
 ## Installation
 Use deployed link
-
+[Link](https://ejkennelly.github.io/dayPlanner/)
 ## License
 MIT
 ![license](https://img.shields.io/badge/license-MIT-ff69b4)
